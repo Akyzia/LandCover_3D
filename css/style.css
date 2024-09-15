@@ -1,0 +1,63 @@
+html,body,
+#viewDiv {
+  position: relative;
+  padding: 0;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
+
+.panel-content {
+  padding: 20px;
+  flex-direction: column;
+  gap: 12px;
+  background: #575656;
+}
+
+body {
+  background: #575656;
+  margin: 5;
+  padding: 5;
+}
+
+/*.side-menu {
+  bottom:10px;
+  width: 100px;
+  margin:15px;
+  overflow: auto;
+  position: fixed; Adicionando position fixed para fixar o menu lateral 
+  top: 250px;var(--header-height); Ajustar a posição com base na altura do cabeçalho 
+  right: 0;  Posicionar no lado esquerdo da tela
+  background: #333;  Adicionar um fundo escuro para o menu lateral 
+  color: gray; Cor do texto 
+}*/
+
+.side-menu a {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: gray; /* Cor padrão do texto dos links */
+  text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.side-menu a.active {
+  color: #00ab6e;
+}
+
+.side-menu a:hover {
+  color: #78ffcf;
+}
+
+.boxmedir3d {
+    position:relative;
+    margin-left:50px;
+}
+
+.atribuition {
+    color:gray;
+    font-style: italic;
+    position:relative;
+    margin-left:500px;
+}

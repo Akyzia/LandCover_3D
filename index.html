@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <title>LandCover with ArcGIS Maps SDK for JavaScript</title>
+  
+  <!--Estilos-->
+  <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/calcite-components/2.8.5/calcite.css" />
+  <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+  <!-- Script do ArcGIS -->
+  <script src="https://js.arcgis.com/4.30/"></script>
+  <!--meuscrip-->
+  <script src="javascript/javasc.js"></script>
+ 
+</head>
+<body>
+  <!--Div onde o mapa será exibido-->
+  <div id="viewDiv" style="width: 80%; height: 98%;"></div>
+
+  <!--Painel Calcite -->
+  <calcite-panel id="pickerContainer" heading="Land cover (categories and years)">
+    <div class="panel-content">
+      <div id="valuePickerTimeDiv"></div>
+      <div id="rasterFunctionPickerDiv"></div>
+    </div>
+  </calcite-panel>
+
+</body>
+</html>
